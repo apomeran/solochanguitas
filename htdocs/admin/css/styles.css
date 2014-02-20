@@ -1,0 +1,148 @@
+h2,
+h3 {
+    font-family: 'Varela Round', "Helvetica Neue", Helvetica, Arial, sans-serif;
+    color: #D7184B;
+}
+h2.head {
+    margin: 30px 0 0;
+}
+.logo {
+    padding: 10px 0;
+}
+#filtros label,
+#filtros input,
+#filtros select {
+    font-size: .85em;
+    padding: 4px 2px;
+    line-height: normal;
+}
+#filtros label {
+    margin-bottom: 0;
+    font-weight: bold;
+}
+#filtros .buscar {
+    padding: 4px 5px;
+}
+#filtros .span2 .buscar {
+    width: 130px;
+}
+#filtros .span4 .buscar {
+    width: 330px;
+}
+#filtros .span5 .buscar {
+    width: 430px;
+}
+#filtros .btn-buscar {
+    vertical-align: top;
+    padding: 4px;
+}
+#filtros .btn-exportar {
+    padding: 4px;
+}
+#filtros .btn-mini {
+    padding: 0 5px;
+    margin-top: -2px;
+}
+.paginacion {
+    font-size: .85em;
+    text-align: center;
+}
+.paginacion select {
+    font-size: .85em;
+    height: auto;
+    width: 50px;
+}
+.paginacion .btn {
+    padding: 2px;
+    margin-top: -9px;
+}
+table th {
+    background-color: #ccc;
+}
+table#usuarios th.acciones {
+    width: 90px;
+}
+table#changuitas th.acciones {
+    width: 90px;
+}
+table#sugerencias th.acciones {
+    width: 30px;
+}
+table#denuncias th.acciones {
+    width: 30px;
+}
+table#preguntas th.acciones {
+    width: 60px;
+}
+table#categorias th.acciones,
+table#subcategorias th.acciones {
+    width: 120px;
+}
+table td.acciones {
+    vertical-align: middle;
+}
+table td.acciones button,
+table td.acciones a.btn {
+    padding: 0 5px;
+    margin: 0 2px;
+}
+table td.preguntas {
+    text-align: center;
+}
+table td.subcategorias {
+    text-align: center;
+    width: 110px;
+}
+table td.text-center {
+    text-align: center;
+}
+table td.text-right {
+    text-align: right;
+}
+.disabled {
+    cursor: not-allowed;
+}
+.btn.disabled,
+.btn[disabled] {
+    cursor: not-allowed;
+    opacity: 0.4;
+    filter: alpha(opacity=40);
+}
+.highlight {
+    background-color: yellow;
+}
+#procesando {
+    text-align: center;
+}
+.table tbody tr.gris td {
+  background-color: #eee;
+}
+.table tbody tr.gris:hover td {
+  background-color: #ddd;
+}
+.table tbody tr.deleted td {
+  font-style: italic;
+  text-decoration: line-through;
+}
+.table tbody tr.deleted:hover td {
+  text-decoration: none;
+}
+.table tbody tr.deleted td.preguntas {
+  font-style: normal;
+  text-decoration: none;
+}
+.cargando {
+    background: url('../../img/cargando.gif') no-repeat right center;
+}
+.vista-mas td.dato {
+    font-weight: bold;
+}
+#modal-data-pagar span {
+    font-family: 'Varela Round', "Helvetica Neue", Helvetica, Arial, sans-serif;
+    color: #f89a36;
+    font-size: 1.2em;
+    font-weight: bold;
+}
+#modal-data-pagar input.radio {
+    margin: 3px 6px 0 0;
+}

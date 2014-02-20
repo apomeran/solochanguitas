@@ -1,0 +1,12 @@
+#AuthType Basic
+#AuthName "Zona Restringida"
+#AuthUserFile /www/solochanguitas//.htpasswd
+#Require valid-user
+
+RewriteEngine On
+
+RewriteCond %{REQUEST_URI} ^.*/index.php
+RewriteRule ^.* http://www.solochanguitas.com.ar [R=301,L]
+
+SetEnvIf Request_Method "POST" IS_POST
+Header set Cache-Control "no-cache" env=IS_POST

@@ -1,0 +1,6 @@
+#AUTOSTART
+AuthType Basic
+AuthName "Zona Restringida"
+AuthUserFile /www/solochanguitas//.htpasswd
+Require valid-user
+#AUTOSTOP
